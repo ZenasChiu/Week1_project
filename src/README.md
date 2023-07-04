@@ -12,6 +12,8 @@ Day 2
   - file scan read write 
   - Try catch
   - exception vs IOE exception
+- Set up GitHub
+  - First push done
 
 
 TEsting update 

@@ -4,7 +4,7 @@ public class Employee {
     private String deparment;
     private double salary;
 
-    public Employee(String name, String e_Id, String deparment, double salary){
+    public Employee(String e_Id, String name, String deparment, double salary){
         this.name = name ;
         this.e_Id = e_Id;
         this.deparment = deparment;
@@ -33,6 +33,12 @@ public class Employee {
 
     public void setSalary(double Salary){
         this.salary = Salary;
+    }
+
+    public String getdetials(){
+        String details = String.format( "ID :%s\nName :%s\nDepartment :%s\nSalary :%f"
+                            ,getE_Id(),get_name(),get_Department(),get_salary());
+        return details;
     }
 
 }

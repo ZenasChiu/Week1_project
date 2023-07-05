@@ -15,7 +15,12 @@ Day 2
 - Set up GitHub
   - First push done
 
-
-TEsting update 
-
-testing to updating to Develop
+Day 3
+- Employee system updated 
+  - Adding auto read csv --> create class
+  
+- Java
+  - Abstract vs Interface vs Overriding / Overloading
+  - Array Fixed Size / framework : Arraylist dynamic size
+  - Extend Class : xx(Child) Extends xx(super)
+  - 
